@@ -10,7 +10,6 @@ body {
   padding: 20px;
 }
 main {
-  /* border: 2px solid rebeccapurple; */
   max-width: 90%;
   margin: auto;
 }
@@ -21,7 +20,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1.25rem;
+  margin: 1rem 0;
 }
 .form {
   background-color: #161b22;
@@ -38,8 +37,7 @@ h2 {
   margin-left: 0.9rem;
 }
 #userInput {
-  /* border: 2px solid yellow; */
-  padding: 10px;
+  padding: 5px;
   outline: none;
   background-color: #161b22;
   color: #f0f6fc;
@@ -61,10 +59,10 @@ figure {
   height: 100px;
 }
 .profileSection {
-  /* border: 2px solid red; */
   background-color: #161b22;
   margin-top: 2rem;
   padding: 20px;
+  border-radius: 8px;
 }
 .profile {
   display: flex;
