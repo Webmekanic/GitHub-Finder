@@ -29,9 +29,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
 }
 .fa-magnifying-glass {
-  /* border: 2px solid rebeccapurple; */
+  margin-left: 0.7rem;
 }
 h2 {
   margin-left: 0.9rem;
@@ -75,7 +78,7 @@ figure img {
 }
 
 .profileData {
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 h4 {
   font-size: 20px;
@@ -84,7 +87,6 @@ h4 {
   color: #238636;
 }
 .overview {
-  /* border: 2px solid red; */
   background-color: #010409;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
