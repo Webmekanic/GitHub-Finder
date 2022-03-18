@@ -78,13 +78,24 @@ figure img {
 }
 
 .profileData {
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  padding-top: 1rem;
+  margin-left: 1.8rem;
 }
 h4 {
   font-size: 20px;
 }
 .userName {
+  margin-top: 0.4rem;
   color: #238636;
+}
+.dateJoin {
+  margin-top: 0.4rem;
+}
+.profileBio {
+  line-height: 1.3rem;
+  margin-top: 1.2rem;
+  text-align: justify;
 }
 .overview {
   background-color: #010409;
@@ -93,7 +104,7 @@ h4 {
   padding: 30px;
   align-items: center;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   border-radius: 8px;
 }
 .profileHistory {
@@ -103,6 +114,7 @@ h4 {
 #profileInfo {
   display: grid;
   grid-template-rows: 1fr;
+  margin-top: 1rem;
 }
 .profileInfoItem {
   list-style: none;
@@ -118,4 +130,7 @@ a {
   color: #f0f6fc;
   opacity: 0.9;
   margin-left: 0.5rem;
+}
+a:hover {
+  color: #238636;
 }
