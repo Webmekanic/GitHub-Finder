@@ -13,6 +13,7 @@ userInput.addEventListener("keyup", (e) => {
     github.getUser(userText).then((data) => {
       if (data.profile.message === "Not Found") {
         // Show Alert
+        ui.showAlert()
       } else {
         // Show Profile
         ui.showProfile(data.profile)
@@ -20,5 +21,6 @@ userInput.addEventListener("keyup", (e) => {
     })
   } else {
     // Clear Profile
+    ui.clearProfile()
   }
 })

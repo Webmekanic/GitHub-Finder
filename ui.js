@@ -1,13 +1,14 @@
 class UI {
   constructor() {
-    this.profile = document.querySelector(".profileSection")
+    this.profile = document.querySelector(".githubProfile")
   }
 
   showProfile(user) {
     this.profile.innerHTML = `
-    <article class="profile">
+     <section class="profileSection">
+        <article class="profile">
           <figure>
-            <img class="avatarUrl" src="${user.avatar_url}" alt="Profile Picture" srcset="Profile" />
+            <img class="avatarUrl" src="${user.avatar_url}"/>
           </figure>
           <div class="profileData">
             <h4>${user.name}</h4>
@@ -44,14 +45,22 @@ class UI {
             </li>
             <li class="profileInfoItem">
               <i class="fa-brands fa-twitter"></i>
-              <a href="http://fa-twitter.com">${user.twitter_username}</a>
+              <a href="http://twitter.com/${user.twitter_username}">${user.twitter_username}</a>
             </li>
             <li class="profileInfoItem">
               <i class="fa-brands fa-github-alt"></i>
               <a href="${user.html_url}" target="_blank">${user.html_url}</a>
             </li>
           </ul>
-        </section> 
+        </section>    
+     </section>
+ 
   `
+  }
+  //Show Alert
+
+  // Clear Profile
+  clearprofile() {
+    this.profile.innerHTML = ""
   }
 }
