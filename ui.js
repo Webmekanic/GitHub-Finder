@@ -60,7 +60,7 @@ class UI {
   //Show Alert
 
   // Clear Profile
-  clearprofile() {
-    this.profile.innerHTML = ""
-  }
+  // clearProfile() {
+  //   this.profile.innerHTML = ""
+  // }
 }
