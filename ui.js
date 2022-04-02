@@ -4,6 +4,7 @@ class UI {
   }
 
   showProfile(user) {
+    this.newDate = new Date(`${user.created_at}`).toLocaleString()
     this.profile.innerHTML = `
      <section class="profileSection">
         <article class="profile">
@@ -13,7 +14,7 @@ class UI {
           <div class="profileData">
             <h4>${user.name}</h4>
             <p class="userName">${user.login}</p>
-            <p class="dateJoin">${user.created_at}</p>
+            <p class="dateJoin">${this.newDate}</p>
           </div>
         </article>
         <article class="profileBio">
