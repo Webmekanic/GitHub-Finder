@@ -50,7 +50,7 @@ class UI {
             </li>
             <li class="profileInfoItem">
               <i class="fa-brands fa-github-alt"></i>
-              <a href="${user.html_url}" target="_blank">${user.html_url}</a>
+              <a href="${user.html_url}" target="_blank">${user.company}</a>
             </li>
           </ul>
         </section>    

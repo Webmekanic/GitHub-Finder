@@ -40,7 +40,7 @@ h2 {
   margin-left: 0.9rem;
 }
 #userInput {
-  padding: 5px;
+  padding: 10px;
   outline: none;
   background-color: #161b22;
   color: #f0f6fc;
@@ -107,10 +107,6 @@ h4 {
   text-align: center;
   margin-top: 1.5rem;
   border-radius: 8px;
-}
-.profileHistory {
-}
-.profileLinks {
 }
 #profileInfo {
   display: grid;
